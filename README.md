@@ -1,11 +1,15 @@
-# Example Package
+# [stuck] python version of npx envinfo
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+i tried to make a python verison of envinfo but failed with the packaging.
+
+```
+'report-env' executable script not found in package 'report-env'.
+Available executable scripts:
+```
 
 ## Distributing
 
+- failed to use poetry to bundle - got `/Users/swyx/Desktop/Work/env-info/report_env does not contain any element` error and couldnt fix
 - `python3 -m build`
 - `python3 -m twine upload dist/*`
 

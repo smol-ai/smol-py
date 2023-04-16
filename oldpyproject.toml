@@ -12,7 +12,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-[console_scripts]
+[tool.poetry.scripts]
 report-env = "report_env.__main__:main"
 
 [project.urls]

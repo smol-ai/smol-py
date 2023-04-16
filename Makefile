@@ -2,7 +2,8 @@
 
 build: clean
 	python -m pip install --upgrade --quiet setuptools wheel twine
-	python3 -m build
+	# python3 -m build
+	python setup.py --quiet sdist bdist_wheel
 
 publish: build
 	python -m twine check dist/*
