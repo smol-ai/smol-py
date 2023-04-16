@@ -8,3 +8,9 @@ to write your content.
 
 - `python3 -m build`
 - `python3 -m twine upload dist/*`
+
+
+## thanks
+
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- https://github.com/cs01/pycowsay

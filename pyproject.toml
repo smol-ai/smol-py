@@ -1,6 +1,6 @@
 [project]
 name = "report-env"
-version = "0.0.1"
+version = "0.0.4"
 authors = [
   { name="swyx", email="swyx@dontemailme.com" },
 ]
@@ -12,6 +12,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+[console_scripts]
+report-env = "report_env.__main__:main"
 
 [project.urls]
 "Homepage" = "https://github.com/sw-yx/report-env"
