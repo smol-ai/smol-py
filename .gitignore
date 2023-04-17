@@ -16,3 +16,6 @@ var/
 *.eggs
 .mypy_cache/
 .vscode
+
+## pyenv
+.python-version

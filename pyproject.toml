@@ -17,7 +17,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-report-env = "src.report_env.__main__:main"
+report-env = "report_env.__main__:main"
 
 [project.urls]
 "Homepage" = "https://github.com/sw-yx/report-env"
