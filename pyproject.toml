@@ -5,7 +5,7 @@ description = "pythong version of npx envinfo"
 authors = ["swyx <swyx@dontemail.me>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "report-env"}]
+packages = [{include = "report_env"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -17,7 +17,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-report-env = "src.report_env.__main__:main"
+report-env = "report_env.__main__:main"
 
 [project.urls]
 "Homepage" = "https://github.com/sw-yx/report-env"
