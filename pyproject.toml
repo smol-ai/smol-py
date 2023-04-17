@@ -5,7 +5,7 @@ description = "pythong version of npx envinfo"
 authors = ["swyx <swyx@dontemail.me>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "report_env"}]
+packages = [{include = "report-env"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
