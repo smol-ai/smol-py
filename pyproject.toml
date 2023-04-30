@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "report-env"
-version = "0.05"
-description = "pythong version of npx envinfo"
+name = "report_env"
+version = "0.06"
+description = "python version of npx envinfo"
 authors = ["swyx <swyx@dontemail.me>"]
 license = "MIT"
 readme = "README.md"
@@ -17,7 +17,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-report-env = "report_env.__main__:main"
+report_env = "report_env.__main__:main"
 
 [project.urls]
 "Homepage" = "https://github.com/sw-yx/report-env"
