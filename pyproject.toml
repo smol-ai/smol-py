@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "report_env"
-version = "0.06"
+name = "smolai"
+version = "0.01"
 description = "python version of npx envinfo"
 authors = ["swyx <swyx@dontemail.me>"]
 license = "MIT"
